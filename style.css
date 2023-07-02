@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+
+*{
+    margin: 0;
+font-family: 'Freehand', cursive;
+}
+body{
+    background:linear-gradient(80deg ,rgb(93, 93, 103) , rgb(84, 41, 103) , rgb(154, 82, 168) );
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.container h1{
+font-size: 100px;
+color:white;  
+/* margin-top:30px;   */
+}
+i{
+    color:red;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+   width:90%;
+    align-items: center;
+    margin-top:200px;
+    gap:30px;
+    
+
+}
+.box{
+   
+    background-color: white;
+    width:30%;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    border-radius: 10%;
+    box-shadow: 2px 1px 15px 1px rgb(91, 11, 11);
+    cursor: pointer;
+   
+}
+.box h1{
+    color:goldenrod;
+    font-weight: bold;
+     font-size: 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.box-1{
+    background-image: url(img/tom4.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box-2{
+    background-image: url(img/crash.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box-3{
+    background-image: url(img/kick.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box-4{
+    background-image: url(img/tom1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box-5{
+    background-image: url(img/tom2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box-6{
+    background-image: url(img/tom3.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box-7{
+    background-image: url(img/snare.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box h1:hover{
+    color:blueviolet;
+}
+
+.box:hover{
+    box-shadow: 2px 1px 15px 1px rgb(210, 210, 210); 
+}
